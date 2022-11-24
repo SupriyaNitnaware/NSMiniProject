@@ -1,0 +1,154 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    
+}
+
+.col
+{
+    background-color: orange;
+    width: 30%;
+}
+
+.col img
+{
+    padding: 40px ;
+}
+
+.inner
+{
+    width: 250px;  
+    margin-left: 40px;
+}
+
+.p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.para
+{
+    line-height: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.btn
+{
+    display: flex;
+    padding: 40px;
+}
+
+.sub
+{
+    padding: 15px;
+    border: none;
+    color: orange;
+    border-radius: 25px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.sub:hover
+{
+    border: 2px solid #fff;
+    background-color: orange;
+    color: #fff;
+}
+
+/* second col */
+.col2
+{
+    background-color: rgb(15, 93, 117);
+    width: 30%;
+}
+
+.inner1
+{
+    width: 250px;  
+    margin-left: 40px;
+}
+
+.col2 img
+{
+    padding: 40px;
+}
+
+#sub{
+color: rgb(15, 93, 117);
+}
+
+#sub:hover
+{
+    border: 2px solid #fff;
+    background-color: rgb(15, 93, 117);
+    color: #fff;
+}
+
+
+.col3
+{
+    background-color: rgb(6, 88, 75);
+    width: 30%;
+}
+
+.inner2
+{
+    width: 250px;  
+    margin-left: 40px;  
+}
+
+
+.col3 img
+{
+    padding: 40px;
+}
+
+#sub2:hover
+{
+    border: 2px solid #fff;
+    background-color: rgb(6, 88, 75);
+    color: #fff;
+}
+
+#sub2
+{
+    color: rgb(6, 88, 75);
+}
+
+
+/* responsive */
+@media (max-width: 940px)
+{
+    .container
+    {
+        display: block;
+        /* text-align: center; */
+    }
+
+    .col
+    {
+        width: 100%;
+        
+    }
+
+    .para
+    {
+        font-size: 20px;
+        width: 150%;
+    }
+
+    .col2
+    {
+        width: 100%;
+    }
+    
+
+    .col3
+    {
+        width: 100%;
+    }
+}
